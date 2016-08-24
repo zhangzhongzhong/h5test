@@ -122,6 +122,12 @@ class Main extends egret.DisplayObjectContainer {
         bg.graphics.drawRect(0,0,this.stage.stageWidth,this.stage.stageHeight);
         bg.graphics.endFill();
         this.addChild(bg);
+
+        var tx:egret.TextField = new egret.TextField();
+        tx.text = "hello zzz welcome";
+        tx.size = 32;
+        this.addChild(tx);
+
     }
 
 }
